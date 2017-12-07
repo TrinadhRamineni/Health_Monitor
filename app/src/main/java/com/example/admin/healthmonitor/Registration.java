@@ -17,6 +17,8 @@ ImageButton doctor,patient;
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Registration.this,doctorRegistration.class);
+                startActivity(intent);
+                finish();
             }
         });
         patient = (ImageButton) findViewById(R.id.imageButton2);
@@ -24,6 +26,8 @@ ImageButton doctor,patient;
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Registration.this,patientRegistration.class);
+                startActivity(intent);
+                finish();
             }
         });
 

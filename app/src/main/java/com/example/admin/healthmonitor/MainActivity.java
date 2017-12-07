@@ -13,15 +13,16 @@ private Button login,signup;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        login = (Button) findViewById(R.id.button3);
-        signup = (Button) findViewById(R.id.button4);
+        login = (Button) findViewById(R.id.button4);
+        signup = (Button) findViewById(R.id.button3);
 
 
 
 
-        login.setOnClickListener(new View.OnClickListener(){
+    /*    login.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
                 // TODO Auto-generated method stub
+
                 Intent intent = new Intent(MainActivity.this,Registration.class);
                 startActivity(intent);
                 finish();
@@ -29,7 +30,7 @@ private Button login,signup;
             }
         });
 
-
+*/
 
 
         signup.setOnClickListener(new View.OnClickListener() {
